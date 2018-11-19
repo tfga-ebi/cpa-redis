@@ -1,0 +1,28 @@
+{
+    "applicationName": "redis",
+    "contactEmail": "gianni@ebi.ac.uk",
+    "about": "Redis Server instance",
+    "version": "0.1",
+    "cloudProviders": [
+        {
+            "cloudProvider": "OSTACK",
+            "path": "ostack"
+        }
+    ],
+    "inputs": [
+        "instance_number",
+        "redis_bind"
+    ],
+    "deploymentParameters": [
+        "redis_version",
+        "parameter_2_name",
+        "disk_image_name",
+        "remote_user",
+        "machine_type",
+        "floating_ip_pool",
+        "network_name"
+    ],
+    "outputs": [
+        "external_ip"
+    ]
+}
